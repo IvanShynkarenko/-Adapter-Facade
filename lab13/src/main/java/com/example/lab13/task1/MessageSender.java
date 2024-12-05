@@ -12,7 +12,7 @@ class MessageSender
         }
         else if(!user.getCountry().equals(country))
         {
-            System.out.println("The user's country and the country specified in the message do not match");
+            System.out.println("Check wether you entered the right country name");
         }
         else
         {
